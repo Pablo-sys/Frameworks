@@ -1,0 +1,30 @@
+body{
+  background: url("../img/barcena-mayor.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  filter: grayscale(30%);
+}
+.container{
+    width: 100%;
+    margin-top: 120px;
+}
+.nav-extended{
+    width: 100%;
+}
+.brand-logo{
+    width: 130px;
+    height: 65px;
+}
+img{
+    margin: 6px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+.foto-grande{
+    height: 630px;
+}
+div{
+    border-radius: 5px;
+}

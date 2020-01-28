@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "DancingScript-Regular";
+  src: url("DancingScript-Regular.ttf");
+}
+body{
+    background: url("../img/amsterdam.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+  width: 90%;
+  margin: 0 5%;
+  clear: both;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.encabezado2{
+  border-right: 4px solid #374548 !important;
+}
+hr{
+  border: 2px solid #374548;
+}
+h1{
+  font-size: 4.5em;
+  text-transform: capitalize;
+  color: #fff;
+  padding-left: 10px;
+  font-family: "DancingScript-Regular";
+}
+h2{
+  margin-left: 9px;
+  text-transform: capitalize;
+  font-family: "DancingScript-Regular";
+}
+p{
+  padding-left: 10px;
+  color: #fff;
+  font-family: "DancingScript-Regular";
+  font-size: 1.56em;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+li{
+  list-style: none;
+  margin-left: 18px;
+  font-size: 1.56em;
+  font-family: "DancingScript-Regular";
+}
+.img-comentarios{
+  width:60px;
+  padding: 0;
+}
+.left-side{
+  margin-right: px;
+}
+.enlace{
+  color: #fff;
+}
+.lado-derecho{
+  margin: 5px;
+}
+a{
+  opacity: 0.8;
+}
+a:hover{
+  opacity: 1;
+  transform: scale(1.15)
+}
+.columns{border-radius: 5px;
+  margin: 4px 0;
+  border: none;
+}
+.column{
+  padding: 0;
+}
+#entrada-busqueda{
+  margin-left: 30px;
+}
+.comida{
+  width: 100%;
+}
+img{
+  border-radius: 7px;
+  border: 3px solid #374548 !important;
+}
+.comentario{
+  margin-bottom: 5px;
+  border: 3px solid #374548;
+  border-radius: 7px;
+  font-size: 0.8em;
+}
+.postre{
+  width: 100%;
+  height: 265px;
+}
+@media screen and (min-width: 400px) and (max-width: 1020px){
+    .container{
+        background-color: rgba(0, 0, 0, 0.6);
+}
+    .encabezado2{
+        border: 0 !important;
+      }
+    #entrada-busqueda{
+        margin-left: 50px;
+      }
+    img{
+        padding: 10px;
+      }
+    hr{
+        border: 7px solid  #fff;
+      }
+    h2{
+        font-size: 2.7em;
+    }
